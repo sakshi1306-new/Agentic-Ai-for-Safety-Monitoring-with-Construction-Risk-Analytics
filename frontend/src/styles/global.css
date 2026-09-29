@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+
+    padding: 0;
+
+    width: 100%;
+
+    min-height: 100%;
+
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#F1F5F9;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/* =========================
+   RESPONSIVE GUARDS (any device)
+========================= */
+
+img,
+svg,
+canvas,
+video {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tableWrapper,
+.hazardTable {
+    -webkit-overflow-scrolling: touch;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button {
+    min-height: 40px;
+}
+
+@media (max-width: 650px) {
+
+    h1 {
+        overflow-wrap: break-word;
+    }
+
+}
